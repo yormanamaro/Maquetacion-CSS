@@ -57,7 +57,7 @@ nav {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  height: 90px;
+  height: 172px;
 }
 nav .nav-logo-container {
   margin-left: 50px;
@@ -82,4 +82,29 @@ nav .profile-link a {
   color: #1b4332;
   border-bottom: 1px solid black;
   font-size: 23px;
+}
+
+.home-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
+  background-color: #b5e48c;
+}
+.home-main section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  justify-items: center;
+  height: 350px;
+  margin-top: 200px;
+}
+.home-main .home-main__text {
+  font-size: 30px;
+  font-weight: 700px;
+  letter-spacing: 10px;
+  color: black;
+  text-align: center;
 }
