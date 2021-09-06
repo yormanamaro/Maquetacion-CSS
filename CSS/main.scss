@@ -1,5 +1,6 @@
 body
 {
+    font-family:'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -14,6 +15,8 @@ a
     display: inline;
     color: black;
 }
+
+
 
 
 header
@@ -77,6 +80,7 @@ nav
 
 
 
+
 .home-main
 {
     display: grid;
@@ -105,6 +109,20 @@ nav
         color: black;
         text-align: center;
     }
+    & .home-main__button
+    {
+        width: 115px;
+        height: 35px;
+        background: #47cfac;
+        display: grid;
+        align-items: center;
+        border-radius: 10px;
+    }
+    & .home-main__button a
+    {
+        font-weight: 700;
+        font-size: 18px;
+    } 
 }
 
 

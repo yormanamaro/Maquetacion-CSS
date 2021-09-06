@@ -1,4 +1,5 @@
 body {
+  font-family: "Roboto Mono", monospace;
   margin: 0;
   padding: 0;
   position: fixed;
@@ -113,4 +114,19 @@ nav .profile-link a {
   letter-spacing: 10px;
   color: black;
   text-align: center;
+}
+.home-main .home-main__button {
+  width: 115px;
+  height: 35px;
+  background: #47cfac;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+.home-main .home-main__button a {
+  font-weight: 700;
+  font-size: 18px;
 }
