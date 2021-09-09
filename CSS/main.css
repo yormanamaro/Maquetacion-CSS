@@ -138,6 +138,12 @@ nav .profile-link a {
 .blogs-main {
   display: -ms-grid;
   display: grid;
+  overflow-y: scroll;
+  position: fixed;
+  top: 221px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .blogs-news-container {
@@ -188,4 +194,30 @@ nav .profile-link a {
   border-bottom: 1px solid #cdd2da;
   padding-bottom: 20px;
   text-align: center;
+}
+
+.blogs-post-container .post-container {
+  display: inline-block;
+  padding-left: 10px;
+  max-width: 30%;
+  margin-bottom: 50px;
+}
+.blogs-post-container .post-container p {
+  margin-bottom: 35px;
+}
+.blogs-post-container .post-container img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #22272d;
+  border-top: 35px solid #47cfac;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  margin-top: 30px;
 }
