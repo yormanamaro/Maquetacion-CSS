@@ -285,3 +285,34 @@ main {
 .contact-main-container img {
   width: 5%;
 }
+
+.profile-main-container img {
+  width: 320px;
+  margin-right: 30px;
+}
+
+.profile-main-container .profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-main-proyects {
+  padding: 0 50px 40px;
+}
+
+.profile-main-proyects h3 {
+  border-bottom: 1px solir #cdd2da;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.proyects-main-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.proyects-main-container .proyects-container {
+  padding: 0 5px;
+}
